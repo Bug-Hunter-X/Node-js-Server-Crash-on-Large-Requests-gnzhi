@@ -1,0 +1,3 @@
+# Node.js Server Crash on Large Requests
+
+This repository demonstrates a common issue in Node.js servers: crashing on large requests due to exceeding the default memory limit for request bodies.  The `bug.js` file shows the problematic code, which doesn't handle large requests gracefully. The solution, provided in `bugSolution.js`, demonstrates how to mitigate this issue using the `body-parser` middleware.
